@@ -9,11 +9,16 @@ gem 'rails', '4.1.6'
 group :development, :test do 
 	gem 'sqlite3', '1.3.9'
 	gem 'rspec-rails', '3.1.0'
+	gem 'guard-rspec', '4.3.1'
+	gem 'spork-rails', '4.0.0'
+	gem 'guard-spork', '1.5.1'
+	gem 'childprocess', '0.5.5'
 end
 
 group :test do 
 	gem 'capybara','2.4.3'
 	gem 'selenium-webdriver', '2.43.0'
+	gem 'libnotify', '0.8.0'
 end
 
 gem 'sass-rails', '4.0.3'
